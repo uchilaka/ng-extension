@@ -1,4 +1,4 @@
-angular.module('ng-extension', [])
+angular.module('lngExtension', [])
         .factory('$extensionService', ['$http', '$rootScope', '$location', function ($http, $rt, $urloc) {
                 var options = {
                     namespace: 'APPLOG',
